@@ -32,6 +32,18 @@ Este documento fue creado originalmente para un **concurso universitario de dise
 
 # Algoritmo de los 6 Pasos
 
+```mermaid
+flowchart TD
+
+A[Paso 1: Entidades Fuertes] --> B[Paso 2: Entidades Débiles]
+B --> C[Paso 3: Relaciones 1:1]
+C --> D[Paso 4: Relaciones 1:M]
+D --> E[Paso 5: Relaciones M:M]
+E --> F[Paso 6: Transformación Final]
+
+F --> G[Base de Datos Normalizada]
+```
+
 *Aplicar después del modelado Entidad-Relación.*
 
 ### Paso 1 – Entidades Fuertes
