@@ -120,3 +120,12 @@ This breaks 3NF because **Profesor depends on Curso rather than Estudiante**.
 Fourth and fifth normal forms apply to complex cases involving multivalued dependencies or join dependencies.
 
 For most systems, reaching **3NF is sufficient to produce a well-designed database**.
+
+---
+
+# Contributing
+
+Contributions are welcome.
+
+If you find mistakes, improvements, or better examples,
+please open an Issue or submit a Pull Request.
