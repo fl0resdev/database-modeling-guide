@@ -123,6 +123,74 @@ For most systems, reaching **3NF is sufficient to produce a well-designed databa
 
 ---
 
+---
+
+# Common Database Design Mistakes
+
+## 1. Using vague or inconsistent naming
+
+Bad:
+
+UserTable
+tbl_users
+users_data
+
+Good:
+
+Users
+Orders
+Products
+
+Tables and columns should follow **consistent naming conventions**.
+
+---
+
+## 2. Using natural data as primary keys
+
+Incorrect:
+
+Email as primary key
+
+Correct:
+
+UserID (integer primary key)
+
+Natural data can change, but IDs remain stable.
+
+---
+
+## 3. Creating tables that try to represent multiple entities
+
+Example:
+
+EmployeeCustomer
+
+This indicates two different entities were mixed into one table.
+
+Entities should represent **one real-world concept**.
+
+---
+
+## 4. Designing tables before understanding the domain
+
+A database should not be designed only from the application code.
+
+First understand:
+
+• entities  
+• relationships  
+• constraints  
+
+Then create tables.
+
+---
+
+## 5. Ignoring indexing considerations
+
+Even well designed tables can become slow without proper indexes.
+
+Primary keys and frequently searched fields should be indexed.
+
 # Contributing
 
 Contributions are welcome.
