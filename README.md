@@ -32,6 +32,18 @@ This document was originally created for a **database design competition at univ
 # Six-Step Algorithm
 *Apply after Entity-Relationship modeling.*
 
+```mermaid
+flowchart TD
+
+A[Step 1: Strong Entities] --> B[Step 2: Weak Entities]
+B --> C[Step 3: 1:1 Relationships]
+C --> D[Step 4: 1:M Relationships]
+D --> E[Step 5: M:M Relationships]
+E --> F[Step 6: Final Transformation]
+
+F --> G[Clean Relational Database]
+```
+
 ### Step 1 – Strong Entities
 Create tables for all strong entities.
 
