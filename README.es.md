@@ -19,7 +19,7 @@ Este documento fue creado originalmente para un **concurso universitario de dise
 
 ## Tabla de Contenidos
 
-* [Algoritmo de Seis Pasos](#algoritmo-de-seis-pasos)
+* [Algoritmo de los 6 Pasos](#algoritmo-de-seis-pasos)
 * [Formas Normales](#formas-normales)
 
   * [Primera Forma Normal (1NF)](#primera-forma-normal-1nf)
@@ -30,7 +30,7 @@ Este documento fue creado originalmente para un **concurso universitario de dise
 
 ---
 
-# Algoritmo de Seis Pasos
+# Algoritmo de los 6 Pasos
 
 *Aplicar después del modelado Entidad-Relación.*
 
