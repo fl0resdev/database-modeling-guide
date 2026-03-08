@@ -1,3 +1,5 @@
+🌐 **Languages:** 🇺🇸 English | 🇪🇸 [Español](README.es.md)
+
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
 ![Status](https://img.shields.io/badge/status-stable-blue)
@@ -10,6 +12,20 @@ This guide explains a simple method to design relational databases for **academi
 The goal is to avoid redundancy, maintain consistency, and produce clean database structures.
 
 This document was originally created for a **database design competition at university**.
+
+---
+
+---
+
+## Table of Contents
+
+- [Six-Step Algorithm](#six-step-algorithm)
+- [Normal Forms](#normal-forms)
+  - [First Normal Form (1NF)](#first-normal-form-1nf)
+  - [Second Normal Form (2NF)](#second-normal-form-2nf)
+  - [Third Normal Form (3NF)](#third-normal-form-3nf)
+- [Common Database Design Mistakes](#common-database-design-mistakes)
+- [Contributing](#contributing)
 
 ---
 
