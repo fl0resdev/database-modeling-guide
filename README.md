@@ -1,3 +1,8 @@
+![License](https://img.shields.io/badge/license-MIT-green)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
+![Status](https://img.shields.io/badge/status-stable-blue)
+![Database](https://img.shields.io/badge/topic-database-blue)
+
 # How to Model Relational Databases Correctly
 
 This guide explains a simple method to design relational databases for **academic projects and small-to-medium systems**.
